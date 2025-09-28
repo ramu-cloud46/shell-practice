@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# everything in shell is considerd as string
+# everything in shell is considered as string
 NUMBER1=100
-NUMBER=200
+NUMBER2=200
 
-SUM=$(($NUMBER1=$NUMBER2))
+SUM=$(($NUMBER1+$NUMBER2))
 
 echo "SUM is: ${SUM}"
+
+
